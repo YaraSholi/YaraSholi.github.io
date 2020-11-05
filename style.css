@@ -1,0 +1,34 @@
+
+body {
+    background-color: azure;
+    text-align: center;
+}
+
+h1 
+{
+    color: crimson;
+    font-family: 'Comic Sans MS';
+    text-align: center;
+    font-size: 300%;
+}
+
+h2
+{
+    color: crimson;
+    font-family: 'Comic Sans MS';
+    text-align: center;
+}
+
+pre {
+    font-size: 200%;
+    text-align: center;
+}
+
+title 
+{
+
+    color: crimson;
+    font-family: 'Comic Sans MS';
+    text-align: center;
+}
+ 
