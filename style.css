@@ -14,12 +14,13 @@ h1
 
 h2
 {
-    color: crimson;
+    color: crimson ;
     font-family: 'Comic Sans MS';
     text-align: center;
 }
 
 pre {
+background-color:thistle;
     font-size: 200%;
     text-align: center;
 }
