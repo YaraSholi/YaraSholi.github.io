@@ -19,11 +19,18 @@ h2
     text-align: center;
 }
 
-pre {
-    background-color:thistle;
+pre 
+{
+    
     font-family: 'Comic Sans MS';
     text-align: center;
 }
+
+    pre#hopie {
+        background-color: thistle;
+        font-family: 'Comic Sans MS';
+        text-align: center;
+    }
 
 title 
 {
