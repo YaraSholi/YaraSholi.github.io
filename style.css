@@ -26,11 +26,12 @@ pre
     text-align: center;
 }
 
-    pre#hopie {
+    pre#hopie 
+       {
         background-color: thistle;
         font-family: 'Comic Sans MS';
         text-align: center;
-    }
+       }
 
 title 
 {
