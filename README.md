@@ -8,7 +8,7 @@
 
 <body>
 
-   <h1> welcome in my page :) </h1>
+   <h1> welcome to my page :) </h1>
     
 
    <img src="web.jpg" alt="photo of beautiful caption " width="500" height="500" style="text-align: center">
