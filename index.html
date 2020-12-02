@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -9,7 +9,7 @@
 <body>
 
     <div class="p">
-        <button onclick="window.print()">Print My CV</button>
+        <button onclick="Function()">Print My CV</button>
     </div>
 
     <h1> welcome in my page :) </h1>
@@ -23,7 +23,7 @@
         My information is :
     </titel>
 
-    <h1>  Yara Mohammad Sholi  </h1>
+    <h1 onclick="meow()">  Yara Mohammad Sholi  </h1>
 
     <hr />
 
@@ -48,7 +48,7 @@ Playing video games.
 
     <h2> My education background : </h2>
 
-    <pre id='hopie'>
+    <pre id="hopie">
             I studied elementary & middle school at Asira AL Shamalia For Girls.
             I studied highe school in Jawahar Lal Nehru High school.
             Currently, I am studing at Najah National University.
@@ -68,8 +68,27 @@ Playing video games.
     <h2> GOOD BEY </h2>
 
     <script>
-        window.alert("Welcome, please let me know if you have any questions");
+        function meow() {
+            alert("Welcome, please let me know if you have any questions");
+        }
+
+        function Function() {
+            window.print();
+        }
+
+        document.getElementById("hopie").onmouseover = function () { mouseOver() };
+        document.getElementById("hopie").onmouseout = function () { mouseOut() };
+
+        function mouseOver() {
+            document.getElementById("hopie").style.color = "red";
+        }
+
+        function mouseOut() {
+            document.getElementById("hopie").style.color = "black";
+        }
+
     </script>
 
 </body>
 </html>
+
