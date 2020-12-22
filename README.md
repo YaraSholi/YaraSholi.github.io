@@ -1,74 +1,121 @@
 <!DOCTYPE html>
-<html>
+<html lang=en>
+
 <head>
-
-   <link rel="stylesheet" href="style.css">
-
+<title > Manar & Yara </title>
+<link rel="stylesheet" href ="style.css">
+<link href="contactme.html" rel="import">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
 
-   <div class="p">
-       <button onclick="window.print()">Print My CV</button>
-   </div>
+   <h1 title="11924470" onclick="name()">
+        Manar Eyad Harb
+   </h1>
+   <h1 title="11924207" onclick="name()">
+        Yara Mohammad Sholi
+   </h1>
 
-   <h1> welcome in my page :) </h1>
+  <br>
+  <hr class="line" />
+     <img src="photo1.jpeg" width="auto" height="auto">
+   <hr class="line"/>
 
+  <h2 class="hh"> -  Manar Education :</h2>
+   
+  <p class="p1" title="Education"  id="p1">
+        
+  studied elementary & middle in UAE <br>  
+  * elementary at Palestine school<br>
+  * middle at AL Khalil school .<br>
+    And now the university in Palestine <br>
+ * at Al-Najah National University.<br>
+            <br>
+        
+   </p>
+    <h2 class="hh"> - Yara Education :</h2>
+   <p class="p1" title="Education" id="p2" >
 
-   <img src="web.jpg" alt="photo of beautiful caption " width="500" height="500" style="text-align: center">
+   studied elementary & middle in Asira AL Shamalia <br>
+    * elementary at Asira AL Shamalia For Girls school <br>
+    * middle at Jawahar Lal Nehru High school .<br>
+    And now the university in Nablus <br>
+    * at Al-Najah National University.<br>
+    
+</b>
+    </p><br />
+    <hr class="line" />
 
-
-   <pre> In this page you can just know about my information to right now so </pre>
-    <titel>
-        My information is :
-    </titel>
-
-   <h1>  Yara Mohammad Sholi  </h1>
-
-   <hr />
-
-   <h2> General information : </h2>
-
-   <pre>
-       I am 19 years old.  
-        I studing Network & Information Security in Najah National University. 
-        I still in my second year. 
-    </pre>
-
-   <hr>
-
-
-   <h2> My hobbies : </h2>
-   <pre>
-Reading.
-Playing video games. 
-    </pre>
+   <br />
+   <p class="p1" title="student "><br />
+        No work Experiences .<br>
+        <br />
+    </p><br>
     <hr>
+    
+    
+       <h2 class="hobbies">
+            - Hobbies:
+        </h2>
+   <div class="manar">
+        <h3>  Manar Hobbies : </h3>
+        <ol type="1">
+            <li>drow.</li>
+            <li>playing music.</li>
+            <li>horse riding.</li>
+        </ol>
+   </div>
+   <div class="yara">
+        <h3>  Yara Hobbies : </h3>
+        <ol type="1">
+            <li>Reading.</li>
+            <li> Playing video games. </li>
+        </ol>
+    </div>
 
-   <h2> My education background : </h2>
-
-   <pre id='hopie'>
-            I studied elementary & middle school at Asira AL Shamalia For Girls.
-            I studied highe school in Jawahar Lal Nehru High school.
-            Currently, I am studing at Najah National University.
-    </pre>
-
-   <a href="https://www.facebook.com/%D9%85%D8%AF%D8%B1%D8%B3%D8%A9-%D8%AC%D9%88%D8%A7%D9%87%D8%B1-%D9%84%D8%A7%D9%84-%D9%86%D9%87%D8%B1%D9%88-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%88%D9%8A%D8%A9-%D9%84%D9%84%D8%A8%D9%86%D8%A7%D8%AA%D8%B9%D8%B5%D9%8A%D8%B1%D8%A9-%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%8A%D8%A9-649433788437704">
-        This is the link to visit my high school <br>
-   </a>
-
-   <hr />
+   <hr class="hr"> <br>
 
 
-   <h2> My work experiences : </h2>
-   <pre id='h'> I don't have any work experiences :) </pre>
-   <hr>
+   <a class="a1" href=" https://www.facebook.com/profile.php?id=100008553314628 ">
+        Manar FACEBOOK linked
+    </a>
+   <a class="a2" href="https://www.facebook.com/yara.sholi">
+        Yara FACEBOOK linked
+    </a><br>
+    <button type='button' class="B" onclick="myFunction()" >Print My CV</button>
+    <button type="button" class="A"><a href="contactme.html" rel="import"> contact me </a></button>
 
-   <h2> GOOD BEY </h2>
+<script>
+    function myFunction() 
+    {
+        window.print();
+    }
+    function name()
+    {
+     alert("Welcome, please let me know if you have any questions");
+    }
 
-   <script>
-        window.alert("Welcome, please let me know if you have any questions");
-   </script>
+   document.getElementById("p1").onmouseover = function() {mouseOver()};
+    document.getElementById("p2").onmouseover = function() {mouseOver1()};
+   document.getElementById("p1").onmouseout = function() {mouseOut()};
+    document.getElementById("p2").onmouseout = function() {mouseOut1()};
 
+function mouseOver() {
+  document.getElementById("p1").style.color = "red";
+}
+function mouseOut() {
+  document.getElementById("p1").style.color = "black";
+}
+function mouseOver1() {
+  document.getElementById("p2").style.color = "red";
+}
+function mouseOut1() {
+ document.getElementById("p2").style.color = "black";
+}
+
+
+</script>
+   
 </body>
 </html>
