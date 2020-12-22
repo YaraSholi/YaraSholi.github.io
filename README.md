@@ -10,34 +10,34 @@
 
 <body>
 
-   <h1 title="11924470" onclick="name()">
+    <h1 title="11924470" onclick="name()">
         Manar Eyad Harb
-   </h1>
-   <h1 title="11924207" onclick="name()">
+    </h1>
+    <h1 title="11924207" onclick="name()">
         Yara Mohammad Sholi
-   </h1>
+    </h1>
 
-  <br>
-  <hr class="line" />
+    <br>
+    <hr class="line" />
      <img src="photo1.jpeg" width="auto" height="auto">
-   <hr class="line"/>
+    <hr class="line"/>
 
-  <h2 class="hh"> -  Manar Education :</h2>
+    <h2 class="hh"> -  Manar Education :</h2>
    
-  <p class="p1" title="Education"  id="p1">
+    <p class="p1" title="Education"  id="p1">
         
-  studied elementary & middle in UAE <br>  
-  * elementary at Palestine school<br>
-  * middle at AL Khalil school .<br>
-    And now the university in Palestine <br>
- * at Al-Najah National University.<br>
+            studied elementary & middle in UAE <br>
+            * elementary at Palestine school<br>
+            * middle at AL Khalil school .<br>
+            And now the university in Palestine <br>
+            * at Al-Najah National University.<br>
             <br>
         
-   </p>
+    </p>
     <h2 class="hh"> - Yara Education :</h2>
-   <p class="p1" title="Education" id="p2" >
+    <p class="p1" title="Education" id="p2" >
 
-   studied elementary & middle in Asira AL Shamalia <br>
+    studied elementary & middle in Asira AL Shamalia <br>
     * elementary at Asira AL Shamalia For Girls school <br>
     * middle at Jawahar Lal Nehru High school .<br>
     And now the university in Nablus <br>
@@ -47,26 +47,27 @@
     </p><br />
     <hr class="line" />
 
-   <br />
-   <p class="p1" title="student "><br />
+    <br />
+    <p class="p1" title="student "><br />
         No work Experiences .<br>
         <br />
     </p><br>
     <hr>
-    
-    
-       <h2 class="hobbies">
+
+
+        <h2 class="hobbies">
             - Hobbies:
         </h2>
-   <div class="manar">
+    <div class="manar">
         <h3>  Manar Hobbies : </h3>
         <ol type="1">
             <li>drow.</li>
             <li>playing music.</li>
             <li>horse riding.</li>
         </ol>
-   </div>
-   <div class="yara">
+    </div>
+
+    <div class="yara">
         <h3>  Yara Hobbies : </h3>
         <ol type="1">
             <li>Reading.</li>
@@ -74,13 +75,13 @@
         </ol>
     </div>
 
-   <hr class="hr"> <br>
+    <hr class="hr"> <br>
 
 
-   <a class="a1" href=" https://www.facebook.com/profile.php?id=100008553314628 ">
+    <a class="a1" href=" https://www.facebook.com/profile.php?id=100008553314628 ">
         Manar FACEBOOK linked
     </a>
-   <a class="a2" href="https://www.facebook.com/yara.sholi">
+    <a class="a2" href="https://www.facebook.com/yara.sholi">
         Yara FACEBOOK linked
     </a><br>
     <button type='button' class="B" onclick="myFunction()" >Print My CV</button>
@@ -96,10 +97,11 @@
      alert("Welcome, please let me know if you have any questions");
     }
 
-   document.getElementById("p1").onmouseover = function() {mouseOver()};
+    document.getElementById("p1").onmouseover = function() {mouseOver()};
     document.getElementById("p2").onmouseover = function() {mouseOver1()};
-   document.getElementById("p1").onmouseout = function() {mouseOut()};
+    document.getElementById("p1").onmouseout = function() {mouseOut()};
     document.getElementById("p2").onmouseout = function() {mouseOut1()};
+
 
 function mouseOver() {
   document.getElementById("p1").style.color = "red";
@@ -111,7 +113,7 @@ function mouseOver1() {
   document.getElementById("p2").style.color = "red";
 }
 function mouseOut1() {
- document.getElementById("p2").style.color = "black";
+  document.getElementById("p2").style.color = "black";
 }
 
 
